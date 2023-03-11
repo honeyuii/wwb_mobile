@@ -1,5 +1,4 @@
 body{
-	
 	background-color: #FFECEF;
 	font-family: 'Lexend', sans-serif;
 	
@@ -121,6 +120,11 @@ header h1 {
     overflow: hidden;
 }
 
+@media (prefers-reduced-motion: reduce){
+    header h1{
+      animation: none;
+    }
+}
 @keyframes color-change {
   0% {
     color: #251B37;
@@ -360,7 +364,4 @@ footer {
 
 .icons{
 	float: right;
-
-
-   
 }
